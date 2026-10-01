@@ -20,7 +20,7 @@ git push -u origin main
 ### Step 2: Deploy on Render (Free 24/7 Web Service / Background Worker)
 1. Go to [Render.com](https://dashboard.render.com/) and log in with GitHub.
 2. Click **New +** > **Web Service** (or **Blueprint** using the included `render.yaml`).
-3. Connect your repository: `https://github.com/LeeXinGaming/NMC-Ticket-Support`.
+3. Connect your repository: `https://github.com/LeeXinGaming/NMG-TICKET-BOT`.
 4. Configure Settings:
    - **Environment:** `Node`
    - **Build Command:** `npm install`
