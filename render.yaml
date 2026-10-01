@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: nmc-ticket-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: CLIENT_ID
+        value: 1552440805187264522
+      - key: GUILD_ID
+        value: 1549490376195309661
+      - key: TICKET_CATEGORY_ID
+        value: 1549540319958147155
+      - key: SUPPORT_ROLE_ID
+        value: 1553098258325180457
+      - key: LOG_CHANNEL_ID
+        value: 1553102113268047874
